@@ -5,6 +5,7 @@ body {
     background-image: url(assets/images/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 header {
     background-color: #510753;
@@ -42,6 +43,7 @@ footer p {
 .card {
     width: 300px;
     margin: 10px;
+    background-color: #fff;
 }
 .card img {
     width: 300px;
@@ -54,4 +56,27 @@ footer p {
 }
 main ul {
     list-style: none;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: bisque;
+}
+.modal-content {
+    background-color: pink;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid pink;
+    width: 30%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 30px;
 }
